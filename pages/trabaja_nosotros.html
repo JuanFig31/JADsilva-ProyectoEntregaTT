@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/favicon_io (1)/favicon.ico" type="image/x-icon">
+    <title>ADSilva trabajamos</title>
+    <link rel="stylesheet" href="../css/estilo.css">
+    
+</head>
+<body>
+    <header>
+        <h1>Joyería ADSilva</h1>
+    </header>
+        <h2>Trabaja con nosotros</h2> <!-- Por medio de media querys  que desaparezca el texto, es mucho para dispositivo pequeños -->
+    <section>
+        <p id="porquenos">¿Por qué trabajar con nosotros?
+            Calidad y prestigio: Nuestras piezas están diseñadas con los más altos estándares de calidad y estilo, lo que garantiza la satisfacción de tus clientes.
+            Apoyo constante: No estarás solo. Te brindaremos capacitación, materiales promocionales y consejos para que tu emprendimiento sea un éxito.
+            Flexibilidad total: Tú decides tu horario, tus metas y el ritmo de trabajo. Este negocio se adapta a tu vida, no al revés.
+            Altos márgenes de ganancia: Al trabajar con productos de alta demanda, tu inversión se traduce en ingresos significativos y sostenibles.
+            ¿Qué buscamos?
+            Personas comprometidas, apasionadas y con ganas de crecer. No necesitas experiencia previa; solo entusiasmo y disposición para aprender.
+            </p><p>
+            El momento de emprender es ahora
+            Únete a una marca que combina elegancia y oportunidad. Te ayudaremos a dar los primeros pasos para construir un negocio propio y sólido, con la confianza de estar respaldado por una joyería líder.
+            <br>
+            ¡No esperes más! Escríbenos hoy y empieza a brillar con nosotros.</p>
+        <fieldset>
+                <form  action="https://formspree.io/f/mpwzoyyn" method="post" id="form" >  
+                
+                <div>
+                    <label for="nombre">Nombre[*]</label>
+                    <input type="text" id="name" name="nombre" size="18" maxlength="18" required>
+                </div>
+                
+                <div>
+                    <label for="apellido"size="18" maxlength="18" required>Apellido[*]</label>
+                    <input type="text" id="apellido" name="apellido" required>
+                </div>
+                <br><br>
+                <div>
+                    <label for="direccion">Dirección</label>
+                    <input type="text" id="direccion"name="direccion">
+                </div>
+
+                <div>
+                    
+                    <label for="ciudad">Ciudad </label>
+                    <select>
+                        <option value=""></option>
+                        <option value="CABA">CABA</option>
+                        <option value="BsAs">Provincia de Buenos Aires</option>
+                        <option value="Interior">Interior del País</option>
+                    </select>
+                        
+                </div>
+                <br><br>
+                <div>
+                    <label for="telefono">Teléfono</label>
+                    <input type="number" name="telefono" id="telefono" >
+                <div>
+                    <br><br>
+                <div>
+                    <label for="mail">E-mail[*]</label>
+                    <input type="email" name="mail" id="mail" required>
+                </div>
+                <br><br>
+                
+                <div>
+                <label for="1">Condición fiscal</label><br><br>
+                    <input type="radio" name="1">Resp. Insc
+                    <input type="radio" name="1">Monotributista
+                    <input type="radio" name="1">No inscripto
+                    <br><br>
+                <input type="file" name="adjunto">
+                </div>
+
+            </fieldset>
+            <br>
+            <label for="coment">Escriba su consulta</label><br>
+            <textarea name="coment" id="coment" cols="50" rows="5" maxlength="300" placeholder="Máximo 300 caracteres"></textarea><br><br>
+
+            <input onclick="validarDatos()" type="submit" value="Enviar">
+            
+            <input type="reset" value="Borrar">
+
+    </section>
+    <script src="../jscript/app2.js"></script>
+</body>
+</html>

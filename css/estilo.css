@@ -1,0 +1,83 @@
+body{
+    box-sizing: border-box;
+    background-color: rgb(50, 10, 40);
+    background: linear-gradient(to left, #400101, black);
+    color: white;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 0;
+    height: 100vh;
+    
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    font-size: 3em;
+    display: inline;
+    color: #F2A0AF;
+    font-family: 'Times New Roman', serif;
+    text-align: center;
+    padding: 0.5em;
+    border: none;
+    border-bottom: solid;
+    border-color: pink;
+    border-radius: 16px;
+    text-shadow: 2px white;
+}
+input{
+    border: none;
+    border-bottom: solid pink;
+    border-radius: 16px;
+    background-color: transparent;
+    color: pink;
+    
+}
+select{
+
+    border: none;
+    border-bottom: solid pink;
+    border-radius: 16px;
+    background-color: transparent;
+    color: pink;
+
+}
+fieldset{
+    display: flex;
+    border-radius: 16px;
+    max-width: 1000px;
+    align-items: center;
+}
+textarea{
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+}
+
+div{
+    display: inline;
+    margin: 5px;
+}
+
+/* .warnings{
+    width: 20px;
+    text-align: center;
+    margin: auto;
+    color: red;
+    padding-top: 20px;
+} */
+/* Parte del mensaje desaparezca para dispositivo màs pequeños y que se acomoden los inputs */
+@media only screen and (max-width: 850px){
+    #porquenos{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+
+}

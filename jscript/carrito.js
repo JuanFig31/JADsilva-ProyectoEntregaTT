@@ -120,6 +120,34 @@ alianzaBrill: {
         descuento: 0  // Sin descuento
     
 },
+    cubana: { 
+        nombre: 'PCU Pulsera Cubana', 
+        precio: 45454.55, 
+        stock: 20,
+        descuento: 0  // Sin descuento
+    
+},
+    cubicOnix: { 
+        nombre: 'POP Oro y Plata', 
+        precio: 57851.24, 
+        stock: 5,
+        descuento: 0  // Sin descuento
+    
+},
+    platasw: { 
+        nombre: 'PSW Pulsera Plata Swarosky', 
+        precio: 44628.10, 
+        stock: 12,
+        descuento: 0  // Sin descuento
+    
+},
+    serpCob: { 
+        nombre: 'PSC Serpiente Cobre', 
+        precio: 18181.82, 
+        stock: 16,
+        descuento: 0  // Sin descuento
+    
+},
     tablet: { 
         nombre: 'Tablet', 
         precio: 300, 

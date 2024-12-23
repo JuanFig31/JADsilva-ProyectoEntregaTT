@@ -32,7 +32,7 @@ let swar = document.getElementById("idsw")
 
 let tituloswar = swar.textContent
 
-let swarDescrip = "PSW Plata Swarosky $"+precioswar
+let swarDescrip = "PSW Plata Sw $"+precioswar
 
 // PULSERA SERPIENTE COBRE
 

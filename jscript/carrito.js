@@ -148,13 +148,35 @@ alianzaBrill: {
         descuento: 0  // Sin descuento
     
 },
-    tablet: { 
-        nombre: 'Tablet', 
-        precio: 300, 
+    qzoBlanco: { 
+        nombre: 'AQB Quarzo Gota', 
+        precio: 14876.03, 
+        stock: 12,
+        descuento: 0  // Sin descuento
+    
+},
+    qzoazul: { 
+        nombre: 'AQA Piedras', 
+        precio: 12396.7, 
         stock: 8,
         descuento: 0  // Sin descuento
     
-}
+},
+
+    aOro: { 
+        nombre: 'AOG 18 kilates', 
+        precio: 24793.39, 
+        stock: 10,
+        descuento: 0  // Sin descuento
+    
+},
+aRosaOp: { 
+    nombre: 'AR Oro y Plata', 
+    precio: 22314.05, 
+    stock: 10,
+    descuento: 0  // Sin descuento
+
+},
 }
 
 // Constante para el IVA

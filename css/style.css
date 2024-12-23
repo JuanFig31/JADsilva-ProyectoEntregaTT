@@ -48,15 +48,17 @@
     border: 30px outset #40010166;/* El borde le da efecto espejo biselado */
     
 }
-#bannerReloj{
-    background-image: url("../img/Relojes/banner.jpg"); /* Para el banner de relojes */
+
+/* Para el banner de relojes puse uno distinto pero en github genera conflicto */
+/* #bannerReloj{
+    background-image: url("../img/Relojes/banner.jpg"); 
     background-size: cover;
     background-position: center;
     height: 20vw;
     margin-bottom: 15px;
     
 }
-
+ */
 .conteiner{
     
     max-width: 400px;

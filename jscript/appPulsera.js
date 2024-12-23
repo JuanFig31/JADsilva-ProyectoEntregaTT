@@ -42,25 +42,6 @@ let titulosercob = sercob.textContent
 
 let sercobdescrip = "PSC Serpiente $"+ preciosercob
 
-//Collar perlas Negras
-
-let collarPerlasn = document.getElementById("idcollarpN")
-
-let titulocollarPerlasn = collarPerlasn.textContent
-
-let collarPerlasnDescrip = "CPN Tahití $"+ preciocollarPerlasn
-
-//Pulsera de Perlas
-
-let pulsPerlas = document.getElementById("idpulsp")
-
-let titulopulsPerlas= pulsPerlas.textContent
-
-let pulsPerlasDescrip = "PP cultivadas $"+ preciopulsPerlas
-
-
-
-
 
 
 

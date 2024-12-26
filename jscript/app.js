@@ -4,7 +4,7 @@
 
 let precioCasioCuero= 174000
 let precioNautica =193000
-let precioTommi = 316000
+let precioTommi = 312000
 let precioCasiom = 184000
 let precioPrunm = 48000
 let precioPrunc = 37000

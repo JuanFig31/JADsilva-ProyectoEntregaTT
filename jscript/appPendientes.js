@@ -17,7 +17,7 @@ let qblanco= document.getElementById("idqblanco")
 
 let tituloqblanco = qblanco.textContent 
 
-let qblancoDescrip = "AQB Gota $18000 $" + precioqblanco
+let qblancoDescrip = "AQB Gota $" + precioqblanco
 
 //AROS QUARZO BLANCO
 
